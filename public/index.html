@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Products Grid</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" href="../css/master.css">
+        <title>Ascii.com</title>
     </head>
-    <body>
+    <body class="jumbotron">
         <header>
-            <h1>Products Grid</h1>
+          <nav class="navbar dark-div">
+            <h1>Welcome to Ascii.com</h1>
+          </nav>
+            <p>Here, you're sure to find a bargain on some of the finest ascii available to purchase. Be sure to peruse our selection of ascii faces in an exciting range of sizes and prices.</p>
 
-            <p>Here you're sure to find a bargain on some of the finest ascii available to purchase. Be sure to peruse our selection of ascii faces in an exciting range of sizes and prices.</p>
-
-            <p>But first, a word from our sponsors:</p> <script>document.write('<img class="ad" src="/ads/?r=' + Math.floor(Math.random()*1000) + '"/>');</script>
+            <p>But first, a word from our sponsors:</p> <script>document.write('<img class="ad" style="width:50%; background-size: contain;" src="/ads/?r=' + Math.floor(Math.random()*1000) + '"/>');</script>
         </header>
 
-        <section class="products" id="react-app-root">
-          ...products go here...
+        <section class="products container">
+          <div class="row">
+            <div class="col-sm">
+              One of Three Columns
+            </div>
+            <div class="col-sm">
+              Two of Three Columns
+            </div>
+            <div class="col-sm">
+              Three of Three Columns
+            </div>
+          </div>
+            ... products go here ...
         </section>
-        <!-- bundle script -->
-        <script type="text/javascript" src="js/bundle.js"></script>
     </body>
 </html>

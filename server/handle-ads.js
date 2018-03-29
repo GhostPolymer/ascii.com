@@ -1,3 +1,6 @@
+var getQueryParams = require('./ads');
+
+
 function getUrlSearchParam(url, s) {
     const allQueries = url.slice(1).split('&');
     let val = '';
