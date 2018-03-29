@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import dateInterval from '../../utils/dateInterval'
 
 const ProductDate = ({ date }) => (
-  <p>{dateInterval({ dateStr: date })}</p>
+  <span>{dateInterval({ dateStr: date })}</span>
 );
 
 ProductDate.propTypes = {
