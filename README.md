@@ -99,3 +99,6 @@ Success! We have an amazing server connection established.
 ---
   - We have to connect the dates, prices and sizes for each ascii face and write them to the HTML page for customers to buy.
   - Test the dates, prices and products and see if they show as well as testing the time zone for accurate product uploading.
+To do so we can view the progress so far here with this branch:
+>  https://github.com/GhostPolymer/ascii.com/tree/base
+---
