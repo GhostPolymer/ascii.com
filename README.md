@@ -101,4 +101,18 @@ Success! We have an amazing server connection established.
   - Test the dates, prices and products and see if they show as well as testing the time zone for accurate product uploading.
 To do so we can view the progress so far here with this branch:
 >  https://github.com/GhostPolymer/ascii.com/tree/base
----
+
+# Day 2 Testing:
+ To make sure the dates, prices and products are working, I went ahead and tested the products first with jest. I wanted to use mocha but jest is just easier to use with React as they are basically made by the same company. Makes things a wee bit easier. 
+ - Testing the products
+ - Using jest to test connections via Products, Dates, Size,Grid and GridItem.jsx files.
+ - Extract or pull the mockDate file and use ProductGrid spec for Jest testing.
+ 
+ End result for testing: Success.
+ I did have some issues with the .spec files for Products, Dates and Size but the solution was easy as I just missed the correct spelling for dirnames and maybe a semicolon here or there.
+ 
+ # Day 3 Server patching and adding any missing dependencies:
+ - Added any eslint missing from the original repo for this project.
+ - Updated the server to work around the CORS issue that I'm sure everyone else normally has issues with.
+ - Created more ads so the same ad didn't repeat twice.
+ - 
