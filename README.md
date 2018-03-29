@@ -116,3 +116,6 @@ To do so we can view the progress so far here with this branch:
  - Updated the server to work around the CORS issue that I'm sure everyone else normally has issues with.
  - Created more ads so the same ad didn't repeat twice.
  - Programmed a fetch feature to get ndjson products from Ascii store
+# Day 4 Create Reducers:
+Reducers specify how the application's state changes in response to actions sent to the store so I began with:
+- Creating product reducers for sortProducts, products, pageProducts, notAnymore products, loading Products and all producs.
