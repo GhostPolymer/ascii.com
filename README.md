@@ -111,8 +111,8 @@ To do so we can view the progress so far here with this branch:
  End result for testing: Success.
  I did have some issues with the .spec files for Products, Dates and Size but the solution was easy as I just missed the correct spelling for dirnames and maybe a semicolon here or there.
  
- # Day 3 Server patching and adding any missing dependencies:
+ # Day 3 Server patching and adding any missing dependencies and fetching data:
  - Added any eslint missing from the original repo for this project.
  - Updated the server to work around the CORS issue that I'm sure everyone else normally has issues with.
  - Created more ads so the same ad didn't repeat twice.
- - 
+ - Programmed a fetch feature to get ndjson products from Ascii store
