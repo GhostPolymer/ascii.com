@@ -36,4 +36,8 @@ const dateInterval - ({ dateStr }) => {
   return blurring;
 };
 
+<<<<<<< HEAD
 export default dateInterval;
+=======
+export default dateInterval;
+>>>>>>> base
