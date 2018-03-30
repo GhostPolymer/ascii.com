@@ -12,6 +12,6 @@ export const productPropTypes = {
 //For our amazing collection, it would be counterintuitive to name as isRequired
 // because those said decisions are up to the component that uses this collection.
 
-export const productCollectionPropTypes = PropTypes.objectOf(
-  Prop.Types.shape(productPropTypes),
+export const productCollectionPropTypes = PropTypes.arrayOf(
+  PropTypes.shape(productPropTypes),
 );

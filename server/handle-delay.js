@@ -1,3 +1,5 @@
+const getQueryParams = require('./get-params');
+
 module.exports = (req, res, next) => {
     var params = getQueryParams(req.url);
     

@@ -1,4 +1,5 @@
 const faces = require('cool-ascii-faces').faces;
+const getQueryParams = require('./get-params');
 
 function getRandomString () {
     return (Math.random()).toString(36).substr(2);

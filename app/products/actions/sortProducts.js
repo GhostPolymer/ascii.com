@@ -1,4 +1,4 @@
 export default sort => ({
-  type: 'PRDUCTS::SORT',
+  type: 'PRODUCTS::SORT',
   sort,
 });

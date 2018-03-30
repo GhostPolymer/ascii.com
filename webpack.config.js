@@ -11,12 +11,13 @@ module.exports = (env) => {
       extensions: ['.js', '.jsx'],
     },
     output: {
-      path: '${__dirname}/public',
-      filename: 'index.html',
+      path: '/public',
+      filename: 'bundle.js',                      //normally bundle.js is bundled via webpack build, in this case it is but it
+                                                  // hidden as well.
     },
     devServer: {
       inline: true,
-      contentBase: '${__dirname}/public',
+      contentBase: '/public',
       port: 3333,
     },
     plugins: [

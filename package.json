@@ -5,8 +5,12 @@
   "description": "Build a grid of product items and ads",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
-    "start-dev-app": "webpack-dev-server",
+    "start": "webpack --env.production && node .",
+    "build": "webpack",
+    "dev:server": "node index.js",
+    "dev:proxy": "node server.js",
+    "dev:react": "webpack-dev-server",
+    "dev":"npm-run-all --parallel dev:server dev:proxy dev:react",
     "test": "jest --watch --coverage"
   },
   "author": "",

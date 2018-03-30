@@ -8,7 +8,7 @@ import { productPropTypes } from './productPropTypes';
 const ProductGridItem = ({
   id, size, price, face, date,
 }) => (
-  <div id={id} className="col-md-6">
+  <div key={id} className="col-md-6">
     <ProductFace face={face} size={size} />
     <ProductSize size={size} />
     <ProductPrice price={price} />
