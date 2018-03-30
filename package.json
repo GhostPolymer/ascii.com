@@ -5,8 +5,12 @@
   "description": "Build a grid of product items and ads",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
-    "start-dev-app": "webpack-dev-server",
+    "start": "webpack --env.production && node .",
+    "build": "webpack",
+    "dev:server": "node index.js",
+    "dev:proxy": "node server.js",
+    "dev:react": "webpack-dev-server",
+    "dev":"npm-run-all --parallel dev:server dev:proxy dev:react",
     "test": "jest --watch --coverage"
   },
   "author": "",
@@ -17,6 +21,7 @@
     "cool-ascii-faces": "^1.3.4",
     "css-loader": "^0.28.7",
     "ecstatic": "^1.4.0",
+    "json-parser": "^1.1.5",
     "prop-types": "^15.6.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",

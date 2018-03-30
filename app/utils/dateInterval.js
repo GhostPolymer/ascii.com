@@ -1,4 +1,4 @@
-/*@param dateStr - a valid date string*/
+@param dateStr - a valid date string
 
 const dateInterval - ({ dateStr }) => {
   const date = new Date(dateStr);
@@ -36,8 +36,6 @@ const dateInterval - ({ dateStr }) => {
   return blurring;
 };
 
-<<<<<<< HEAD
+
 export default dateInterval;
-=======
-export default dateInterval;
->>>>>>> base
+

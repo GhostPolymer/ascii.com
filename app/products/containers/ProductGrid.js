@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import ProductGrid from '../components/ProductGrid';
+import ProductGrid from '../components/ProductGrid.jsx';
 
 const mapStateToProps = state => ({
   products: state.entities.products.all,

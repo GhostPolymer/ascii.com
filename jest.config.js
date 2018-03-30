@@ -1,5 +1,5 @@
 module.exports = {
   setupFiles: [
-    './app/__test__/mockDateNow',
+    './app/__test__/mockDate',
   ],
 };
