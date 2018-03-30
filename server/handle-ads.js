@@ -1,5 +1,5 @@
 var getQueryParams = require('./ads');
-
+var getQueryParams = require ('./get-params');
 
 function getUrlSearchParam(url, s) {
     const allQueries = url.slice(1).split('&');
@@ -24,7 +24,7 @@ module.exports = (req, res, next) => {
             n = (parseInt(r, 10) % max) + 1;
 
         res.writeHead(302, {
-            'Location': `https://unsplash.it/320/200?image=${n}`
+            'Location': `https://unsplash.it/320/200?image=` + n
         });
 
         res.end();
