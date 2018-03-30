@@ -119,3 +119,5 @@ To do so we can view the progress so far here with this branch:
 # Day 4 Create Reducers:
 Reducers specify how the application's state changes in response to actions sent to the store so I began with:
 - Creating product reducers for sortProducts, products, pageProducts, notAnymore products, loading Products and all products.
+- Setup the InfiniteScroll property for unimaginable scrolling ability but on a serious note just checking off another part for              the requirements of the assignment which would be to add your own scrolling script to the project without a plugin.
+- Add redux file components.
