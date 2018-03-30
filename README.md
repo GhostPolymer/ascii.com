@@ -121,3 +121,8 @@ Reducers specify how the application's state changes in response to actions sent
 - Creating product reducers for sortProducts, products, pageProducts, notAnymore products, loading Products and all products.
 - Setup the InfiniteScroll property for unimaginable scrolling ability but on a serious note just checking off another part for              the requirements of the assignment which would be to add your own scrolling script to the project without a plugin.
 - Add redux file components.
+# Day 5 Final Touches:
+- It's two more days until I hand in the project and it's taken a good amount of time to complete this project. 
+- Deploy to mobile.
+# 6 Submit
+- Thank you for being on this wild right of an assignment with me as I learn how to complete a React/Redux native project. I have learned a little bit in regards to this project and that is all I can honestly ever ask for in completing a project.
