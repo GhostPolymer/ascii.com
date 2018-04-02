@@ -1,8 +1,19 @@
-var querystring = require('querystring');
+import React from 'react';
+import PropTypes from 'prop-types';
 
-module.exports = function (url) {
-    var pos = url.indexOf('?');
-    if (pos < 0) { return {}; }
+import { getAdsUrl, isCorrectAdPosition } from '../../helpers/utils';
 
-    return querystring.parse(url.substr(pos+1));
+const Ads = ({ index }) => {
+  if (isCorrectAdPosition(index)) {
+    return <img className='ad' 
+                src={getAdsUrl()} />;
+  }
+  return <span></span>;
 };
+
+Ads.propTypes = {
+  index: PropTypes.number.isRequired,
+};
+
+
+export default Ads;
