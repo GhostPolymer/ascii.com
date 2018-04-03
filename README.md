@@ -115,14 +115,18 @@ To do so we can view the progress so far here with this branch:
  - Added any eslint missing from the original repo for this project.
  - Updated the server to work around the CORS issue that I'm sure everyone else normally has issues with.
  - Created more ads so the same ad didn't repeat twice.
- - Programmed a fetch feature to get ndjson products from Ascii store
+ - Programmed a fetch feature to get products from Ascii store
+ - Create product grid container.
+ - Extract 'prop-types' into it's own file.
 # Day 4 Create Reducers:
 Reducers specify how the application's state changes in response to actions sent to the store so I began with:
 - Creating product reducers for sortProducts, products, pageProducts, notAnymore products, loading Products and all products.
 - Setup the InfiniteScroll property for unimaginable scrolling ability but on a serious note just checking off another part for              the requirements of the assignment which would be to add your own scrolling script to the project without a plugin.
 - Add redux file components.
+- Show ads among products every 20 products keeping in mind to not repeat it twice in a row.
 # Day 5 Final Touches:
 - It's two more days until I hand in the project and it's taken a good amount of time to complete this project. 
-- Deploy to mobile.
+- Final polishes by adding restructured app, server and product files which cut loading time in half and made a faster and less      heaver application.
+- Final style touches and completion.
 # 6 Submit
 - Thank you for being on this wild right of an assignment with me as I learn how to complete a React/Redux native project. I have learned a little bit in regards to this project and that is all I can honestly ever ask for in completing a project.
