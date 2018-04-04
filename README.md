@@ -1,4 +1,4 @@
-# ascii.com
+# Product Grid 
 Best ascii faces on the market. 
 
 ## Problem: 
