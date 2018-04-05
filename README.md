@@ -8,7 +8,7 @@ So just run:
 ```
 npm run build
 ```
-Once the chunks are completed and the build has stopped, make sure the ```bundle.js``` file is in the correct directory.
+Once the chunks are completed and the build has stopped, make sure the ``bundle.js`` file is in the correct directory.
 Then full thrusters scotty:
 
 ```
