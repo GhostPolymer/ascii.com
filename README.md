@@ -1,6 +1,21 @@
 # Product Grid 
 Best ascii faces on the market. 
 
+# Before you get started:
+
+Make sure the build is ran in  your cmd. If not it will bug out saying it's missing the "bundle.js" file.
+So just run:
+```
+npm run build
+```
+Once the chunks are completed and the build has stopped, make sure the ```bundle.js``` file is in the correct directory.
+Then full thrusters scotty:
+
+```
+npm start
+
+```
+
 ## Problem: 
 
 ---
